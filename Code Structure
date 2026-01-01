@@ -1,0 +1,11 @@
+retail-customer-360/
+├── data/                 # Sample CSVs (anonymized)
+├── notebooks/            # Jupyter notebooks for EDA (Exploratory Data Analysis)
+├── src/                  # Production source code
+│   ├── features/         # Feature engineering scripts
+│   ├── models/           # Training scripts (train_churn.py, train_recsys.py)
+│   └── serving/          # API code (FastAPI)
+├── dags/                 # Airflow DAGs (if applicable)
+├── tests/                # Unit tests (HUGE bonus if you have these)
+├── requirements.txt
+└── README.md
