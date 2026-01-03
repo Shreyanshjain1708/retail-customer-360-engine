@@ -1,4 +1,8 @@
 # Retail Customer 360 Engine
+![CI](https://github.com/Shreyanshjain1708/retail-customer-360-engine/actions/workflows/ci.yml/badge.svg)
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![License](https://img.shields.io/github/license/Shreyanshjain1708/retail-customer-360-engine)
+
 
 An end-to-end, production-oriented **Customer 360 & Personalization Engine** for retail organizations, designed to unify customer data, generate actionable insights, and enable data-driven marketing and decision-making at scale.
 
