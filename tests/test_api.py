@@ -1,5 +1,5 @@
 from fastapi.testclient import TestClient
-from src.serving.api import app
+from serving.api import app
 import pytest
 
 client = TestClient(app)
@@ -26,4 +26,5 @@ def test_churn_prediction_flow():
             assert "churn_probability" in response.json()
             assert "risk_label" in response.json()
     except Exception as e:
+
         pytest.fail(f"API failed: {e}")
